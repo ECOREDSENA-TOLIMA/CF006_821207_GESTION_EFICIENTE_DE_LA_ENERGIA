@@ -54,7 +54,7 @@
 
     .row.justify-content-center.align-items-center
       .col-lg-6
-        LineaTiempoD.color-primario
+        LineaTiempoD.color-primario(data-aos="fade-right")
           .row(numero="1" titulo="RETIE. Formato 34.5")
             .col-md-12.mb-4.mb-md-0
               p.text-small.mb-3 RETIE. Formato 34.5 dictamen de inspección y verificación para instalaciones de uso final
@@ -73,7 +73,7 @@
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
                   p RETIE. A
-          .row(numero="2" titulo="RETIE. B.")
+          .row(numero="3" titulo="RETIE. B.")
             .col-md-12.mb-4.mb-md-0
               p.text-small.mb-3 RETIE. B. Formato para instalaciones de uso final, áreas comunes de edificios mixtos, vivienda multifamiliar o comercios.
               p.text-small.mb-5 Lista detallada para instalaciones de uso final, áreas comunes de edificios mixtos, vivienda multifamiliar o comercios, parte B.
@@ -82,7 +82,7 @@
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
                   p RETIE. Formato 34.5
-          .row(numero="3" titulo="RETIE.C.")
+          .row(numero="4" titulo="RETIE.C.")
             .col-md-12.mb-4.mb-md-0
               p.text-small.mb-3 RETIE.C. Formato para instalaciones de uso final, áreas comunes de edificios mixtos, vivienda multifamiliar o comercios.
               p.text-small.mb-5 Lista detallada para instalaciones de uso final, áreas comunes de edificios mixtos, vivienda multifamiliar o comercios, parte C.
@@ -91,7 +91,7 @@
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
                   p RETIE. C
-          .row(numero="4" titulo="RETIE.D.")
+          .row(numero="5" titulo="RETIE.D.")
             .col-md-12.mb-4.mb-md-0
               p.text-small.mb-3 RETIE. D. Formato para instalaciones de uso final, áreas comunes de edificios mixtos, vivienda multifamiliar o comercios.
               p.text-small.mb-5 Lista detallada para instalaciones de uso final, áreas comunes de edificios mixtos, vivienda multifamiliar o comercios, parte D.
@@ -102,12 +102,7 @@
                   p RETIE. D
       .col-lg-6.p-5
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/temas/tema1/3.svg', alt='Texto que describa la imagen')
-      
-    
-    
-      
-
+          img(src='@/assets/curso/temas/tema1/3.png', alt='Texto que describa la imagen')
 </template>
 
 <script>
