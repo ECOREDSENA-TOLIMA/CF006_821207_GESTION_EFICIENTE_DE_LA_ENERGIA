@@ -8,13 +8,13 @@
       h1 Verificación de conformidad SPT
     p.mb-3(data-aos="fade-left") Se invita a ver el siguiente recurso, allí encontrará la verificación de conformidad SPT.
 
-    ul.lista-ul--color
+    ul.lista-ul--color(data-aos="fade-left")
       li 
         i.fas.fa-caret-right
         | <b>Los requisitos de producto establecidos para SPT en el numeral 15.1 del retie que se deben verificar son:</b>
 
     .row.justify-content-center
-      .col-lg-10.p-4.mb-4(style="background-color:#E1D2FE")
+      .col-lg-10.p-4.mb-4(style="background-color:#E1D2FE" data-aos="fade-right")
         p <b>Certificado de producto de electrodos de puesta a tierra acorde al numeral 15.3.1.</b> El calibre mínimo debe ser seleccionado de acuerdo con el nivel de tensión de la instalación. Para baja tensión acorde a la tabla 250.94 de la NTC 2050, como se ilustra a continuación: 
 
     .row.justify-content-center

@@ -68,7 +68,7 @@
             .col-md-12.mb-4.mb-md-0
               p.text-small.mb-3 RETIE. A. Formato para instalaciones de uso final, áreas comunes de edificios mixtos, vivienda multifamiliar o comercios.
               p.text-small.mb-5 Sin embargo, los organismos de inspección han elaborado listas de verificación más detalladas, con el fin de identificar todos los requisitos aplicables al tipo de instalación y que su aplicación sea igual para todos los usuarios. A continuación lista detallada, parte A.
-              a.anexo.mb-3(:href="obtenerLink('downloads/Lista de Comprobación -  Áreas Comunes de Edificios Mixtos, Vivienda Multifamiliar o Comercios.pdf')" target="_blank")
+              a.anexo.mb-3(:href="obtenerLink('downloads/Lista de Comprobación - AC.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
