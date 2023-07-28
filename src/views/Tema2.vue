@@ -5,9 +5,9 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Verificación de conformidad retilap
+      h1 Verificación de conformidad RETILAP
 
-    p.mb-5(data-aos="fade-left") La verificación de requisitos aplicables para los sistemas de iluminación la realiza un organismo de inspección competente y acreditado, a través de dos actividades principales. Primero verifica los requisitos de los productos usados en la instalación mediante los certificados de producto expedidos por un organismo acreditado, posteriormente procede a verificar los requisitos de instalación, mediante una lista de chequeo sugerida por el retilap dependiendo del tipo de sistema de iluminación.
+    p.mb-5(data-aos="fade-left") La verificación de requisitos aplicables para los sistemas de iluminación la realiza un organismo de inspección competente y acreditado, a través de dos actividades principales. Primero verifica los requisitos de los productos usados en la instalación mediante los certificados de producto expedidos por un organismo acreditado, posteriormente procede a verificar los requisitos de instalación, mediante una lista de chequeo sugerida por el RETILAP dependiendo del tipo de sistema de iluminación.
     
     separador
     #t_2_1.titulo-segundo.color-acento-contenido
@@ -16,7 +16,7 @@
     .row.justify-content-center.align-items-center
       .col-lg-6
         .cajon.color-acento-contenido.px-5.py-4.mb-4(data-aos="zoom-in")
-          p.mb-0 De manera similar a los productos especificados por el retie y de acuerdo con el numeral 820.3 del retilap, los aparatos y equipos de iluminación mencionados en el reglamento deben contar con una certificación de conformidad de producto otorgada por una organización independiente y calificada para tal fin. A su vez, dicha organización debe estar acreditada por el Organismo Nacional de Acreditación de Colombia (ONAC). 
+          p.mb-0 De manera similar a los productos especificados por el RETIE y de acuerdo con el numeral 820.3 del RETILAP, los aparatos y equipos de iluminación mencionados en el reglamento deben contar con una certificación de conformidad de producto otorgada por una organización independiente y calificada para tal fin. A su vez, dicha organización debe estar acreditada por el Organismo Nacional de Acreditación de Colombia (ONAC). 
       .col-lg-6
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/temas/tema2/1.png', alt='Texto que describa la imagen')
@@ -24,7 +24,7 @@
     .row.justify-content-center.align-items-center 
       .col-10.mt-5
         .tarjeta.tarjeta--azul.p-3(data-aos="zoom-in")
-          p <b>Para conocer si una organización que emite la certificación de producto se encuentra acreditada por la ONAC</b> se debe consultar el Directorio Oficial de Acreditados en el siguiente enlace:  https://onac.org.co/directorio-de-acreditados/
+          p <b>Para conocer si una organización que emite la certificación de producto se encuentra acreditada por la ONAC</b> se debe consultar el Directorio Oficial de Acreditados en el siguiente enlace: <a href="https://onac.org.co/directorio-de-acreditados/" target="_blank">https://onac.org.co/directorio-de-acreditados/</a>
 
           ol.lista-ol--cuadro.px-3
             li 
@@ -81,7 +81,7 @@
                   | Datos del titular del certificado: nombre del fabricante o comercializador en Colombia, NIT, dirección y ciudad.
                 li 
                   i.fas.fa-check
-                  | Nombre de la Resolución retilap a la que el producto presenta la conformidad.
+                  | Nombre de la Resolución RETILAP a la que el producto presenta la conformidad.
                 li 
                   i.fas.fa-check
                   | Nombre, cargo y firma de la persona autorizada por la empresa acreditadora.
@@ -99,8 +99,8 @@
     #t_2_2.titulo-segundo.color-acento-contenido
       h2 2.2 Componentes del dictamen de inspección
 
-    p.mb-3(data-aos="fade-left") De acuerdo con el retilap los sistemas de iluminación que se encuentran referenciados en el reglamento tienen la obligación de obtener un dictamen de inspección certificada por un organismo de inspección acreditado por la ONAC.
-    p.mb-3(data-aos="fade-left") De acuerdo con el numeral 820.4.2.a del retilap, los sistemas de iluminación que deben obtener dictamen de inspección son:
+    p.mb-3(data-aos="fade-left") De acuerdo con el RETILAP los sistemas de iluminación que se encuentran referenciados en el reglamento tienen la obligación de obtener un dictamen de inspección certificada por un organismo de inspección acreditado por la ONAC.
+    p.mb-3(data-aos="fade-left") De acuerdo con el numeral 820.4.2.a del RETILAP, los sistemas de iluminación que deben obtener dictamen de inspección son:
 
     .tarjeta.tarjeta--azul.p-4(data-aos="zoom-in")
       PasosB.color-acento-contenido
@@ -147,7 +147,7 @@
         .row.justify-content-center(titulo="")
           .col-md-6.mb-4.mb-md-0.px-5
             h5 Dictamen de inspección 6:
-            p Viviendas individuales y comercios de áreas construidas mayores a 500 m2.
+            p Viviendas individuales y comercios de áreas construidas mayores a 500 m#[sup 2].
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema2/10.svg', alt='alt')
@@ -171,7 +171,7 @@
     .row.justify-content-center
       .col-10.mt-5  
         .tarjeta.tarjeta--azul.p-3(data-aos="zoom-in")  
-          p <b>Declaración del constructor del sistema de iluminación.</b> Consiste en un registro considerado como documento público, donde la persona competente responsable de la construcción del sistema de iluminación declara bajo la gravedad de juramento el cumplimiento del retilap para dicho sistema. El formato de la declaración se encuentra en la página 221 del retilap, en la sección Anexos Formato 1.
+          p <b>Declaración del constructor del sistema de iluminación.</b> Consiste en un registro considerado como documento público, donde la persona competente responsable de la construcción del sistema de iluminación declara bajo la gravedad de juramento el cumplimiento del RETILAP para dicho sistema. El formato de la declaración se encuentra en la página 221 del RETILAP, en la sección Anexos Formato 1.
     
     .row.justify-content-center
       .col-10.mt-5  
@@ -199,18 +199,19 @@
           ol.lista-ol.px-5
             li 
               span.text-bold a. 
-              | Para los sistemas de iluminación interior, el formato se encuentra en la página 222 del retilap, se invita a revisarlo.
-            li 
-              span.text-bold b. 
-              |  Para los sistemas de iluminación exterior o alumbrado público el formato se encuentra en la página 223 del retilap, en la sección Anexos Formato 3. se invita a revisarlo.
-          .col-lg-5
-            a.anexo.mb-3.mb-3(:href="obtenerLink('downloads/Dictamen Inspección RETILAP Formato 2.pdf')" target="_blank")
+              | Para los sistemas de iluminación interior, el formato se encuentra en la página 222 del RETILAP, se invita a revisarlo.
+          .col-md-10.col-lg-8.px-5
+            a.anexo.mb-3.mb-3(:href="obtenerLink('downloads/Dictamen Inspeccion RETILAP Formato 2.pdf')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
                 p Dictamen Inspección RETILAP Formato 2
-          .col-lg-5
-            a.anexo.mb-3(:href="obtenerLink('downloads/Dictamen Inspección RETILAP Formato 3.pdf')" target="_blank")
+          ol.lista-ol.px-5
+            li 
+              span.text-bold b. 
+              |  Para los sistemas de iluminación exterior o alumbrado público el formato se encuentra en la página 223 del RETILAP, en la sección Anexos Formato 3. se invita a revisarlo.
+          .col-md-10.col-lg-8.px-5
+            a.anexo.mb-3(:href="obtenerLink('downloads/Dictamen Inspeccion RETILAP Formato 3.pdf')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto

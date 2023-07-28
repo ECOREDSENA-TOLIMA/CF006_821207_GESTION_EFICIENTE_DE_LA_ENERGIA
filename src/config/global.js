@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Verificación de requisitos de instalaciones eléctricas',
     descripcionCurso:
-      'El cumplimiento de los requisitos de retie y retilap se garantiza mediante la “Declaración de cumplimiento” para todas las instalaciones y el “Dictamen de inspección” para algunas instalaciones que reúnan las características previstas en cada reglamento. Estos procedimientos de acreditación permiten identificar las condiciones de desempeño de un sistema eléctrico de uso final, necesario al implementar un sistema de gestión de energía.',
+      'El cumplimiento de los requisitos de RETIE y RETILAP se garantiza mediante la “Declaración de cumplimiento” para todas las instalaciones y el “Dictamen de inspección” para algunas instalaciones que reúnan las características previstas en cada reglamento. Estos procedimientos de acreditación permiten identificar las condiciones de desempeño de un sistema eléctrico de uso final, necesario al implementar un sistema de gestión de energía.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
   },
@@ -23,7 +23,7 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Verificación de conformidad retie',
+        titulo: 'Verificación de conformidad RETIE',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -42,7 +42,7 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Verificación de conformidad retilap',
+        titulo: 'Verificación de conformidad RETILAP',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -60,7 +60,7 @@ export default {
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Verificación de conformidad SPTl',
+        titulo: 'Verificación de conformidad SPT',
         desarrolloContenidos: true,
       },
     ],
@@ -94,13 +94,13 @@ export default {
       },
       {
         icono: 'fas fa-download',
-        titulo: 'Descargar material',
-        download: 'downloads/material.zip',
+        titulo: 'Descargar PDF',
+        download: 'downloads/CFA_06_821207.pdf',
       },
       {
         icono: 'fas fa-download',
-        titulo: 'Descargar PDF',
-        download: 'downloads/CFA_06_821207.pdf',
+        titulo: 'Descargar material',
+        download: 'downloads/material.zip',
       },
       {
         icono: 'far fa-registered',
@@ -120,19 +120,19 @@ export default {
     {
       tema: '1.2 Componentes del dictamen de inspección',
       referencia:
-        'Resolución 90708 de 2013 y anexos. [Ministerio de Minas y Energía de Colombia]. Por la cual se expide el Reglamento técnico de instalaciones eléctricas - retie, que fija las condiciones técnicas que garanticen la seguridad en los procesos de generación, transmisión, transformación, distribución y utilización de la energía eléctrica en la República de Colombia y se dictan otras disposiciones. Agosto 30 de 2013. ',
-      tipo: 'Resolución reglamento técnico de instalaciones eléctricas retie.',
+        'Resolución 90708 de 2013 y anexos. [Ministerio de Minas y Energía de Colombia]. Por la cual se expide el Reglamento técnico de instalaciones eléctricas - RETIE, que fija las condiciones técnicas que garanticen la seguridad en los procesos de generación, transmisión, transformación, distribución y utilización de la energía eléctrica en la República de Colombia y se dictan otras disposiciones. Agosto 30 de 2013. ',
+      tipo: 'Resolución reglamento técnico de instalaciones eléctricas RETIE.',
       link:
-        'https://www.minenergia.gov.co/documents/10180/1179442/Anexo+General+del+RETIE+vigente+actualizado+a+2015-1.pdf/57874c58-e61e-4104-8b8c-b64dbabedb13',
+        'https://www.minenergia.gov.co/documents/3822/22726-Resolucion_9_0708_de_agosto_30_de_2013_expedicion_RETIE_2013.pdf',
     },
     {
-      tema: '2. Verificación de conformidad retilap',
+      tema: '2. Verificación de conformidad RETILAP',
       referencia:
-        'Resolución 181331 de 2009 y anexo. [Ministerio de Minas y Energía de Colombia]. Por la cual se expide el reglamento técnico de iluminación y alumbrado público retilap y se dictan otras disposiciones. Agosto 6 de 2009. ',
+        'Resolución 181331 de 2009 y anexo. [Ministerio de Minas y Energía de Colombia]. Por la cual se expide el reglamento técnico de iluminación y alumbrado público RETILAP y se dictan otras disposiciones. Agosto 6 de 2009. ',
       tipo:
-        'Resolución Reglamento técnico de iluminación y alumbrado público retilap ',
+        'Resolución Reglamento técnico de iluminación y alumbrado público RETILAP ',
       link:
-        'https://www.minenergia.gov.co/documents/10180/23931303/RES180540_2010.pdf/a8e7e904-dc75-41a3-be82-9b990dd6ddb6',
+        'https://www.mincit.gov.co/temas-interes/reglamentos-tecnicos/ministerio-de-minas-y-energia/resolucion-n-18-1331-del-6-de-agosto-de-2009.aspx',
     },
     {
       tema: '3. Verificación de conformidad SPT',
@@ -150,19 +150,22 @@ export default {
     },
     {
       termino: '<em>ONAC</em>',
-      significado: 'Organismo Nacional de Acreditación de Colombia.',
+      significado:
+        '<span>Organismo Nacional de Acreditación de Colombia.</span>',
     },
     {
       termino: '<em>RETIE</em>',
-      significado: 'Reglamento técnico de instalaciones eléctricas.',
+      significado:
+        '<span>Reglamento Técnico de Instalaciones Eléctricas.</span>',
     },
     {
       termino: '<em>RETILAP</em>',
-      significado: 'Reglamento técnico de iluminación y alumbrado público.',
+      significado:
+        '<span>Reglamento Técnico de Iluminación y Alumbrado Público.</span>',
     },
     {
       termino: '<em>SPT</em>',
-      significado: 'Sistema de puesta a tierra.',
+      significado: '<span>Sistema de Puesta a Tierra.</span>',
     },
     {
       termino: 'TELURÓMETRO',
@@ -178,12 +181,12 @@ export default {
     },
     {
       referencia:
-        'Resolución Número 90708 de 2013 y anexos. [Ministerio de Minas y Energía de Colombia]. Por la cual se expide el Reglamento técnico de instalaciones eléctricas - retie, que fija las condiciones técnicas que garanticen la seguridad en los procesos de generación, transmisión, transformación, distribución y utilización de la energía eléctrica en la República de Colombia y se dictan otras disposiciones. Agosto 30 de 2013.',
+        'Resolución Número 90708 de 2013 y anexos. [Ministerio de Minas y Energía de Colombia]. Por la cual se expide el Reglamento técnico de instalaciones eléctricas - RETIE, que fija las condiciones técnicas que garanticen la seguridad en los procesos de generación, transmisión, transformación, distribución y utilización de la energía eléctrica en la República de Colombia y se dictan otras disposiciones. Agosto 30 de 2013.',
       link: '',
     },
     {
       referencia:
-        'Resolución Número 181331 de 2009 y anexo. [Ministerio de Minas y Energía de Colombia]. Por la cual se expide el Reglamento técnico de iluminación y alumbrado público retilap y se dictan otras disposiciones. agosto 6 de 2009.',
+        'Resolución Número 181331 de 2009 y anexo. [Ministerio de Minas y Energía de Colombia]. Por la cual se expide el Reglamento técnico de iluminación y alumbrado público RETILAP y se dictan otras disposiciones. agosto 6 de 2009.',
       link: '',
     },
   ],

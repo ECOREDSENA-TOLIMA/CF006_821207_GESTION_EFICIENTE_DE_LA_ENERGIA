@@ -11,7 +11,7 @@
     ul.lista-ul--color(data-aos="fade-left")
       li 
         i.fas.fa-caret-right
-        | <b>Los requisitos de producto establecidos para SPT en el numeral 15.1 del retie que se deben verificar son:</b>
+        | <b>Los requisitos de producto establecidos para SPT en el numeral 15.1 del RETIE que se deben verificar son:</b>
 
     .row.justify-content-center
       .col-lg-10.p-4.mb-4(style="background-color:#E1D2FE" data-aos="fade-right")
@@ -27,23 +27,23 @@
         p.mb-3.mt-3(data-aos="fade-left") También puede ser seleccionado acorde a la ecuación establecida en la norma IEC 60364-5-54:  
     
     .row.justify-content-center.align-items-center
-      .col-lg-2.p-4
+      .col-lg-3.col-md-4.p-4
         figure#introduccion_img(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema3/2.svg')
       .col-8.p-4
-        p(data-aos="fade-left") donde A es el área mínima de la sección transversal del conductor en [mm²], I el valor eficaz de la corriente de falla en [A] y t el tiempo de despeje de la falla que no debe ser superior a 5 segundos. Se debe seleccionar el calibre de conductor con valor de área más cercano superior al valor del área calculado. 
+        p(data-aos="fade-left") Donde A es el área mínima de la sección transversal del conductor en [mm²], I el valor eficaz de la corriente de falla en [A] y t el tiempo de despeje de la falla que no debe ser superior a 5 segundos. Se debe seleccionar el calibre de conductor con valor de área más cercano superior al valor del área calculado. 
     
     .row.justify-content-center
       .col-10.p-4
         p El valor de K se calcula con:
     
     .row.justify-content-center.align-items-center
-      .col-lg-3.p-4
+      .col-md-4.p-4
         figure#introduccion_img(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema3/3.svg')
       .col-1.p-4
         p Dónde:
-      .col-lg-6.p-4
+      .col-lg-6.col-md-7.p-4
         figure#introduccion_img(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema3/4.svg')
           figcaption.text-center ϴi , ϴf temperaturas inicial y final del conductor.
@@ -53,15 +53,15 @@
         p.mb-3.mt-3(data-aos="fade-left") Para media, alta y extra alta tensión el calibre mínimo debe ser seleccionado acorde a la ecuación establecida en la norma ANSI/IEEE80:
     
     .row.justify-content-center.align-items-center
-      .col-lg-2.p-4
+      .col-lg-3.col-md-4.p-4
         figure#introduccion_img(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema3/5.svg')
       .col-8.p-4
-        p(data-aos="fade-left") donde A es el área mínima de la sección transversal del conductor en [mm²], I el valor eficaz de la corriente de falla en [A] y t el tiempo de despeje de la falla que no debe ser superior a 5 segundos. Se debe seleccionar el calibre de conductor con valor de área más cercano superior al valor del área calculado. 
+        p(data-aos="fade-left") Donde A es el área mínima de la sección transversal del conductor en [mm²], I el valor eficaz de la corriente de falla en [A] y t el tiempo de despeje de la falla que no debe ser superior a 5 segundos. Se debe seleccionar el calibre de conductor con valor de área más cercano superior al valor del área calculado. 
 
     .row.justify-content-center
       .col-10.p-4
-        p(data-aos="fade-left") El valor de Kf se selecciona de la tabla 15.3 del retie, como se muestra a continuación:
+        p(data-aos="fade-left") El valor de Kf se selecciona de la tabla 15.3 del RETIE, como se muestra a continuación:
 
     .row.justify-content-center 
       .col-lg-10.p-4
@@ -88,7 +88,7 @@
        
     .row.justify-content-center
       .col-lg-10.p-4
-        p Los requisitos de instalación establecidos para SPT en el numeral 15.4 del retie que se deben verificar son:
+        p Los requisitos de instalación establecidos para SPT en el numeral 15.4 del RETIE que se deben verificar son:
 
     .row.justify-content-center.align-items-center
       .col-10.mt-5 
@@ -110,7 +110,7 @@
                   img(src='@/assets/curso/temas/tema3/10.svg')
           .col-lg-5.mb-5
             .tarjeta.tarjeta--azul.p-5(data-aos="zoom-in")
-              p.text-small En donde según IEEE81 para obtener 95% de precisión se debe escoger d como mínimo igual a 6.5 veces la mayor dimensión de la puesta a tierra a medir
+              p.text-small En donde según IEEE81 para obtener 95% de precisión se debe escoger de como mínimo igual a 6.5 veces la mayor dimensión de la puesta a tierra a medir
                 figure#introduccion_img(data-aos="fade-right")
                   img(src='@/assets/curso/temas/tema3/11.svg')
 

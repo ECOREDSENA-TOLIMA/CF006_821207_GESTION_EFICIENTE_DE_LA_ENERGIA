@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p.mb-5 El cumplimiento de los requisitos de retie y retilap se garantiza mediante la “Declaración de cumplimiento” para todas las instalaciones y el “Dictamen de inspección, por esta razón es de suma importancia contar con personal capacitado y especializado en el área, previniendo y/o mitigando los posibles problemas que puedan surgir a éste respecto. En el siguiente mapa conceptual se informa de los aspectos más importantes sobre éste tema:
+    p.mb-5 El cumplimiento de los requisitos de RETIE  y RETILAP se garantiza mediante la "Declaración de cumplimiento" para todas las instalaciones y el "Dictamen de inspección", por esta razón es de suma importancia contar con personal capacitado y especializado en el área, previniendo y/o mitigando los posibles problemas que puedan surgir a este respecto. En el siguiente mapa conceptual se informa de los aspectos más importantes sobre este tema:
 
     .row.justify-content-center
       .col-lg-10.mb-5

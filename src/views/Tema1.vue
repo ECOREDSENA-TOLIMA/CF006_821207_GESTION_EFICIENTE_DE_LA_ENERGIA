@@ -5,38 +5,39 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Verificación de conformidad retie
+      h1 Verificación de conformidad RETIE
 
-    p(data-aos="fade-left") La verificación de requisitos aplicables la realiza el inspector en dos etapas. Primero verifica los requisitos de los productos usados en la instalación mediante los certificados de producto expedidos por un organismo acreditado, seguidamente procede a verificar los requisitos de instalación mediante una lista de chequeo sugerida por retie, dependiendo del tipo de instalación. Para este caso se empleará la lista para instalaciones de uso final.
+    p(data-aos="fade-left") La verificación de requisitos aplicables la realiza el inspector en dos etapas. Primero verifica los requisitos de los productos usados en la instalación mediante los certificados de producto expedidos por un organismo acreditado, seguidamente procede a verificar los requisitos de instalación mediante una lista de chequeo sugerida por RETIE, dependiendo del tipo de instalación. Para este caso se empleará la lista para instalaciones de uso final.
 
     separador
     #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1 Certificados de producto
 
-    p.mb-5(data-aos="fade-left") De acuerdo con el Artículo 33 del retie todos los productos listados en la tabla 2.1 de la página 10 que pretendan ser comercializados y usados en instalaciones eléctricas en Colombia deben demostrar el cumplimiento de los requisitos establecidos en el retie para cada uno de ellos, mediante un certificado de conformidad de producto expedido por un organismo de certificación de productos acreditado por el organismo de acreditación nacional de Colombia (ONAC) y según las normas ISO/IEC 17065 y 17067.
+    p.mb-5(data-aos="fade-left") De acuerdo con el Artículo 33 del RETIE todos los productos listados en la tabla 2.1 de la página 10 que pretendan ser comercializados y usados en instalaciones eléctricas en Colombia deben demostrar el cumplimiento de los requisitos establecidos en el RETIE para cada uno de ellos, mediante un certificado de conformidad de producto expedido por un organismo de certificación de productos acreditado por el organismo de acreditación nacional de Colombia (ONAC) y según las normas ISO/IEC 17065 y 17067.
 
-    .row.justify-content-end.align-items-end.back-img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/1.png')})`}")
-      .col-lg-6.p-5.mb-3.text-small(data-aos="fade-right")
-          p.mb-3.pt-5 Para verificar la acreditación de un organismo como certificador de producto es necesario que consulte el Directorio oficial de acreditados del ONAC en el siguiente enlace: 
-          a.anexo.mb-3(href="https://onac.org.co/directorio-de-acreditados/" target="_blank")
-            .anexo__icono
-              img(src="@/assets/template/icono-link.svg")
-            .anexo__texto
-              p ONAC – Búsqueda por esquema de acreditación.
-          ul.lista-ul.mb-3
-            li.px-5 
-              i.fas.fa-check
-              | Seleccionar el esquema de acreditación en la opción “Organismos de certificación de productos” (CPR).
-            li.px-5
-              i.fas.fa-check
-              | Seleccionar en sector IAF (International Accreditation Forum) las opciones “19 Equipo eléctrico y óptico” o “25 Suministro de electricidad” según corresponda y luego buscar. Se presenta a continuación una imagen ilustrativa de la página:
-          
-          p.mb-3 Una vez ingrese, tenga en cuenta lo siguiente:
-          p Una vez verificado el estado de acreditación del organismo que expide el certificado de producto se debe verificar en la página web de los organismos certificadores la validez del certificado de cada uno de los productos usados en la instalación.
+    .row.justify-content-end.align-items-end.back-img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/1.png')})`, 'background-repeat': 'no-repeat', 'background-size': 'cover'}")
+      p.pt-3.text-small Para verificar la acreditación de un organismo como certificador de producto es necesario que consulte el Directorio oficial de acreditados del ONAC en el siguiente enlace: 
+      .col-lg-6.p-2.mb-3.text-small(data-aos="fade-right")
+        a.anexo.mb-3(href="https://onac.org.co/directorio-de-acreditados/" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-link.svg")
+          .anexo__texto
+            p ONAC - Búsqueda por esquema de acreditación.
+        ul.lista-ul.mb-3
+          li.px-5 
+            i.fas.fa-check
+            | Seleccionar el esquema de acreditación en la opción “Organismos de certificación de productos” (CPR).
+          li.px-5
+            i.fas.fa-check
+            | Seleccionar en sector IAF (International Accreditation Forum) las opciones “19 Equipo eléctrico y óptico” o “25 Suministro de electricidad” según corresponda y luego buscar. Se presenta a continuación una imagen ilustrativa de la página:
+        
+        figure
+          img(src="@/assets/curso/temas/tema1/tema1-1.png")
+        p.mt-3 Una vez verificado el estado de acreditación del organismo que expide el certificado de producto se debe verificar en la página web de los organismos certificadores la validez del certificado de cada uno de los productos usados en la instalación.
 
     .row.justify-content-center.align-items-center
       .col-lg-6.mt-5.p-5(data-aos="fade-left")
-          p.mb-5 Del listado de productos, los más comúnmente usados en instalaciones eléctricas de uso final, sin limitarse a ellos, son los siguientes ítems (la numeración se da de acuerdo con el retie): 
+          p.mb-5 Del listado de productos, los más comúnmente usados en instalaciones eléctricas de uso final, sin limitarse a ellos, son los siguientes ítems (la numeración se da de acuerdo con el RETIE): 
           a.anexo.mb-3(:href="obtenerLink('downloads/Certificado de Producto.pdf')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-pdf.svg")
@@ -68,7 +69,7 @@
             .col-md-12.mb-4.mb-md-0
               p.text-small.mb-3 RETIE. A. Formato para instalaciones de uso final, áreas comunes de edificios mixtos, vivienda multifamiliar o comercios.
               p.text-small.mb-5 Sin embargo, los organismos de inspección han elaborado listas de verificación más detalladas, con el fin de identificar todos los requisitos aplicables al tipo de instalación y que su aplicación sea igual para todos los usuarios. A continuación lista detallada, parte A.
-              a.anexo.mb-3(:href="obtenerLink('downloads/Lista de Comprobación - AC.pdf')" target="_blank")
+              a.anexo.mb-3(:href="obtenerLink('downloads/Lista de Comprobacion AC.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
@@ -77,16 +78,16 @@
             .col-md-12.mb-4.mb-md-0
               p.text-small.mb-3 RETIE. B. Formato para instalaciones de uso final, áreas comunes de edificios mixtos, vivienda multifamiliar o comercios.
               p.text-small.mb-5 Lista detallada para instalaciones de uso final, áreas comunes de edificios mixtos, vivienda multifamiliar o comercios, parte B.
-              a.anexo.mb-3(:href="obtenerLink('Lista de Comprobación  Pagina 2 de 4.pdf')" target="_blank")
+              a.anexo.mb-3(:href="obtenerLink('downloads/Lista de Comprobacion Pagina 2 de 4.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
-                  p RETIE. Formato 34.5
+                  p RETIE. B
           .row(numero="4" titulo="RETIE.C.")
             .col-md-12.mb-4.mb-md-0
               p.text-small.mb-3 RETIE.C. Formato para instalaciones de uso final, áreas comunes de edificios mixtos, vivienda multifamiliar o comercios.
               p.text-small.mb-5 Lista detallada para instalaciones de uso final, áreas comunes de edificios mixtos, vivienda multifamiliar o comercios, parte C.
-              a.anexo.mb-3(:href="obtenerLink('downloads/Lista de Comprobación -Pagina 3 de 4.pdf')" target="_blank")
+              a.anexo.mb-3(:href="obtenerLink('downloads/Lista de Comprobacion Pagina 3 de 4.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
@@ -95,7 +96,7 @@
             .col-md-12.mb-4.mb-md-0
               p.text-small.mb-3 RETIE. D. Formato para instalaciones de uso final, áreas comunes de edificios mixtos, vivienda multifamiliar o comercios.
               p.text-small.mb-5 Lista detallada para instalaciones de uso final, áreas comunes de edificios mixtos, vivienda multifamiliar o comercios, parte D.
-              a.anexo.mb-3(:href="obtenerLink('downloads/Lista de Comprobación -Pagina 4 de 4.pdf')" target="_blank")
+              a.anexo.mb-3(:href="obtenerLink('downloads/Lista de Comprobacion Pagina 4 de 4.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
