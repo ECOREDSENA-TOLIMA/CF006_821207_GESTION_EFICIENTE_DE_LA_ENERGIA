@@ -9,17 +9,17 @@
           i.fas.fa-info
       h1 Introducción
     
-    .row.justify-content-center.align-items-center.back-img(:style="{'background-image': `url(${require('@/assets/curso/intro/1.png')})`}")     
-      .col-md-8.p-1
-        p.text-white.text-small(data-aos="fade-right") En este componente se abordan aquellos requisitos de verificación que se establecen desde RETIE y RETILAP, especialmente desde la “declaración del cumplimiento” y el “dictamen de inspección”, en tanto cualquier procedimiento de instalación eléctrica debe cumplir con unas características específicas que se reflejan en el desempeño de un sistema de gestión de energía. Este proceso de verificación se desarrolla en tres etapas que requieren la aplicación de contenidos desarrollados con anterioridad así: verificación de valores de variables con el uso de instrumentos de medida, verificación del cumplimiento de los requisitos funcionales identificados como relevantes según el tipo de instalación y/o sistemas de alumbrado y verificación de las características requeridas por los productos usados en las instalaciones y/o sistemas de alumbrado.
-      .col-md-3.p-4
-        figure#introduccion_img(data-aos="fade-right")
-          img(src='@/assets/curso/intro/2.svg')
+    p.mb-4 En este componente se abordan aquellos requisitos de verificación que se establecen desde RETIE y RETILAP, especialmente desde la “declaración del cumplimiento” y el “dictamen de inspección”, en tanto cualquier procedimiento de instalación eléctrica debe cumplir con unas características específicas que se reflejan en el desempeño de un sistema de gestión de energía. Este proceso de verificación se desarrolla en tres etapas que requieren la aplicación de contenidos desarrollados con anterioridad así: verificación de valores de variables con el uso de instrumentos de medida, verificación del cumplimiento de los requisitos funcionales identificados como relevantes según el tipo de instalación y/o sistemas de alumbrado y verificación de las características requeridas por los productos usados en las instalaciones y/o sistemas de alumbrado.
+    //- .row.justify-content-center.align-items-center.back-img(:style="{'background-image': `url(${require('@/assets/curso/intro/1.png')})`}")     
+    //-   .col-md-8.p-1
+    //-     p.text-white.text-small(data-aos="fade-right") En este componente se abordan aquellos requisitos de verificación que se establecen desde RETIE y RETILAP, especialmente desde la “declaración del cumplimiento” y el “dictamen de inspección”, en tanto cualquier procedimiento de instalación eléctrica debe cumplir con unas características específicas que se reflejan en el desempeño de un sistema de gestión de energía. Este proceso de verificación se desarrolla en tres etapas que requieren la aplicación de contenidos desarrollados con anterioridad así: verificación de valores de variables con el uso de instrumentos de medida, verificación del cumplimiento de los requisitos funcionales identificados como relevantes según el tipo de instalación y/o sistemas de alumbrado y verificación de las características requeridas por los productos usados en las instalaciones y/o sistemas de alumbrado.
+    //-   .col-md-3.p-4
+    //-     figure#introduccion_img(data-aos="fade-right")
+    //-       img(src='@/assets/curso/intro/2.svg')
 
-    .col-12
-      figure.mt-5(data-aos="fade-left")
-        .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/fhYuMFa2bFo" title="Verificación de requisitos de instalaciones eléctricas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    figure.mt-5(data-aos="fade-left")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/fhYuMFa2bFo" title="Verificación de requisitos de instalaciones eléctricas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p.mb-5.mt-5(data-aos="fade-left") Antes de iniciar el recorrido por el componente se invita a que descargue el documento de cumplimiento.
 
