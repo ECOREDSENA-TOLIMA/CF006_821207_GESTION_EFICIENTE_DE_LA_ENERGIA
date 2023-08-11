@@ -38,7 +38,7 @@
     .row.justify-content-center.align-items-center
       .col-lg-6.mt-5.p-5(data-aos="fade-left")
           p.mb-5 Del listado de productos, los más comúnmente usados en instalaciones eléctricas de uso final, sin limitarse a ellos, son los siguientes ítems (la numeración se da de acuerdo con el RETIE): 
-          a.anexo.mb-3(:href="obtenerLink('downloads/Certificado de Producto.pdf')" target="_blank")
+          a.anexo.mb-3(:href="obtenerLink('downloads/Certificado_de_Producto.pdf')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -60,7 +60,7 @@
             .col-md-12.mb-4.mb-md-0
               p.text-small.mb-3 RETIE. Formato 34.5 dictamen de inspección y verificación para instalaciones de uso final
               p.text-small.mb-5 Para la inspección de instalaciones de uso final RETIE anexa un formato específico, el 34.5 con el listado de condiciones mínimas que deben ser verificadas para este tipo de instalación. 
-              a.anexo.mb-3(:href="obtenerLink('downloads/Anexo General Reglamento Técnico de Instalaciones Eléctricas - RETEI.pdf')" target="_blank")
+              a.anexo.mb-3(:href="obtenerLink('downloads/Anexo_General_Reglamento_Tecnico_de_Instalaciones_Electricas.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
@@ -69,7 +69,7 @@
             .col-md-12.mb-4.mb-md-0
               p.text-small.mb-3 RETIE. A. Formato para instalaciones de uso final, áreas comunes de edificios mixtos, vivienda multifamiliar o comercios.
               p.text-small.mb-5 Sin embargo, los organismos de inspección han elaborado listas de verificación más detalladas, con el fin de identificar todos los requisitos aplicables al tipo de instalación y que su aplicación sea igual para todos los usuarios. A continuación lista detallada, parte A.
-              a.anexo.mb-3(:href="obtenerLink('downloads/Lista de Comprobacion AC.pdf')" target="_blank")
+              a.anexo.mb-3(:href="obtenerLink('downloads/Lista_de_Comprobacion_AC.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
@@ -78,7 +78,7 @@
             .col-md-12.mb-4.mb-md-0
               p.text-small.mb-3 RETIE. B. Formato para instalaciones de uso final, áreas comunes de edificios mixtos, vivienda multifamiliar o comercios.
               p.text-small.mb-5 Lista detallada para instalaciones de uso final, áreas comunes de edificios mixtos, vivienda multifamiliar o comercios, parte B.
-              a.anexo.mb-3(:href="obtenerLink('downloads/Lista de Comprobacion Pagina 2 de 4.pdf')" target="_blank")
+              a.anexo.mb-3(:href="obtenerLink('downloads/Lista_de_Comprobacion_Pagina_2_de_4.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
@@ -87,7 +87,7 @@
             .col-md-12.mb-4.mb-md-0
               p.text-small.mb-3 RETIE.C. Formato para instalaciones de uso final, áreas comunes de edificios mixtos, vivienda multifamiliar o comercios.
               p.text-small.mb-5 Lista detallada para instalaciones de uso final, áreas comunes de edificios mixtos, vivienda multifamiliar o comercios, parte C.
-              a.anexo.mb-3(:href="obtenerLink('downloads/Lista de Comprobacion Pagina 3 de 4.pdf')" target="_blank")
+              a.anexo.mb-3(:href="obtenerLink('downloads/Lista_de_Comprobacion_Pagina_3_de_4.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
@@ -96,7 +96,7 @@
             .col-md-12.mb-4.mb-md-0
               p.text-small.mb-3 RETIE. D. Formato para instalaciones de uso final, áreas comunes de edificios mixtos, vivienda multifamiliar o comercios.
               p.text-small.mb-5 Lista detallada para instalaciones de uso final, áreas comunes de edificios mixtos, vivienda multifamiliar o comercios, parte D.
-              a.anexo.mb-3(:href="obtenerLink('downloads/Lista de Comprobacion Pagina 4 de 4.pdf')" target="_blank")
+              a.anexo.mb-3(:href="obtenerLink('downloads/Lista_de_Comprobacion_Pagina_4_de_4.pdf')" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto

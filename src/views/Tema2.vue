@@ -24,7 +24,7 @@
     .row.justify-content-center.align-items-center 
       .col-10.mt-5
         .tarjeta.tarjeta--azul.p-3(data-aos="zoom-in")
-          p <b>Para conocer si una organización que emite la certificación de producto se encuentra acreditada por la ONAC</b> se debe consultar el Directorio Oficial de Acreditados en el siguiente enlace: <a href="https://onac.org.co/directorio-de-acreditados/" target="_blank">https://onac.org.co/directorio-de-acreditados/</a>
+          p <b>Para conocer si una organización que emite la certificación de producto se encuentra acreditada por la ONAC</b> se debe consultar el Directorio Oficial de Acreditados en el siguiente enlace: <a style="color:blue" href="https://onac.org.co/directorio-de-acreditados/" target="_blank">https://onac.org.co/directorio-de-acreditados/</a>
 
           ol.lista-ol--cuadro.px-3
             li 
@@ -42,6 +42,8 @@
               | <b>Seleccionar</b> en el apartado <b>categoría de producto / proceso o servicio</b> (codificación nace) la opción <b>“27.40 Lámparas y aparatos eléctricos de iluminación”.</b>
           .row.justify-content-center 
             .col-lg-10.mb-4.mt-4    
+              .titulo-sexto.color-acento-contenido
+                <b>Figura 2.</b> <i>Directorio oficial de acreditados</i>
               figure#introduccion_img(data-aos="fade-right")
                 img(src='@/assets/curso/temas/tema2/2.svg')
 
@@ -201,7 +203,7 @@
               span.text-bold a. 
               | Para los sistemas de iluminación interior, el formato se encuentra en la página 222 del RETILAP, se invita a revisarlo.
           .col-md-10.col-lg-8.px-5
-            a.anexo.mb-3.mb-3(:href="obtenerLink('downloads/Dictamen Inspeccion RETILAP Formato 2.pdf')" target="_blank")
+            a.anexo.mb-3.mb-3(:href="obtenerLink('downloads/Dictamen_Inspeccion_RETILAP_Formato_2.pdf')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -211,7 +213,7 @@
               span.text-bold b. 
               |  Para los sistemas de iluminación exterior o alumbrado público el formato se encuentra en la página 223 del RETILAP, en la sección Anexos Formato 3. se invita a revisarlo.
           .col-md-10.col-lg-8.px-5
-            a.anexo.mb-3(:href="obtenerLink('downloads/Dictamen Inspeccion RETILAP Formato 3.pdf')" target="_blank")
+            a.anexo.mb-3(:href="obtenerLink('downloads/Dictamen_Inspeccion_RETILAP_Formato_3.pdf')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
