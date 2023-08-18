@@ -139,7 +139,8 @@ export default {
       referencia:
         'Instituto Colombiano de Normas Técnicas y Certificación. (1998). Norma Técnica Colombiana NTC 2050 Código Eléctrico Colombiano. ICONTEC.',
       tipo: 'Norma Técnica Colombiana Código Eléctrico Colombiano',
-      link: '',
+      link:
+        'https://docplayer.es/14941678-Codigo-electrico-colombiano-norma-tecnica-colombiana-2050-ntc-2050.html',
     },
   ],
   glosario: [
