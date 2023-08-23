@@ -45,7 +45,7 @@
               .titulo-sexto.color-acento-contenido.mb-1
                 <b>Figura 3.</b> <i>Búsqueda por filtro, esquema de acreditación</i>
               figure#introduccion_img(data-aos="fade-right")
-                img(src='@/assets/curso/temas/tema2/2.svg')
+                img(src='@/assets/curso/temas/tema2/2.png')
                 figcaption Fuente: <a href="https://onac.org.co/directorio-de-acreditados/" target="_blank" style="color:blue">https://onac.org.co/directorio-de-acreditados/</a> 
 
           ol.lista-ol--cuadro.px-3
