@@ -48,6 +48,7 @@
       .col-12.col-md-10
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/intro/4.svg', alt='')
+          figcaption Nota: tomada de <a href="https://www.electrovichada.com.co/files/AUTO-DECLARACION-RETILAP.pdf" style="color:blue" target="_blank">https://www.electrovichada.com.co/files/AUTO-DECLARACION-RETILAP.pdf</a>
     
 </template>
 

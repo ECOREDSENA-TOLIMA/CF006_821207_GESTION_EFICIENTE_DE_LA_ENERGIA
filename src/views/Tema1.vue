@@ -31,8 +31,11 @@
             i.fas.fa-check
             | Seleccionar en sector IAF (International Accreditation Forum) las opciones “19 Equipo eléctrico y óptico” o “25 Suministro de electricidad” según corresponda y luego buscar. Se presenta a continuación una imagen ilustrativa de la página:
         
+        .titulo-sexto.color-acento-contenido.mb-1
+          <b>Figura 2.</b> <i>Esquema de acreditación </i>
         figure
           img(src="@/assets/curso/temas/tema1/tema1-1.png")
+          figcaption Nota: tomada de <a href="https://onac.org.co/directorio-de-acreditados/" target="_blank" style="color:blue">https://onac.org.co/directorio-de-acreditados/</a>
         p.mt-3 Una vez verificado el estado de acreditación del organismo que expide el certificado de producto se debe verificar en la página web de los organismos certificadores la validez del certificado de cada uno de los productos usados en la instalación.
 
     .row.justify-content-center.align-items-center

@@ -20,7 +20,7 @@
     .row.justify-content-center
       .col-lg-10.p-4
         figure#introduccion_img(data-aos="fade-right")
-          img(src='@/assets/curso/temas/tema3/1.svg')
+          img(src='@/assets/curso/temas/tema3/1.png')
 
     .row.justify-content-center
       .col-10.p-4
@@ -45,7 +45,7 @@
         p Dónde:
       .col-lg-6.col-md-7.p-4
         figure#introduccion_img(data-aos="fade-right")
-          img(src='@/assets/curso/temas/tema3/4.svg')
+          img(src='@/assets/curso/temas/tema3/4.png')
           figcaption.text-center ϴi , ϴf temperaturas inicial y final del conductor.
 
     .row.justify-content-center
@@ -66,7 +66,7 @@
     .row.justify-content-center 
       .col-lg-10.p-4
         figure#introduccion_img(data-aos="fade-right")
-          img(src='@/assets/curso/temas/tema3/6.svg')
+          img(src='@/assets/curso/temas/tema3/6.png')
 
     .row.justify-content-center
       .col-10.p-4.mb-4(style="background-color:#E1D2FE" data-aos="fade-right")
@@ -75,15 +75,14 @@
     .row.justify-content-center
       .col-lg-8.p-4
         figure#introduccion_img(data-aos="fade-right")
-          img(src='@/assets/curso/temas/tema3/7.svg')
+          img(src='@/assets/curso/temas/tema3/7.png')
 
     .row.justify-content-center.align-items-center
-      .col-lg-2.p-4
+      .col-md-3
           figure#introduccion_img(data-aos="fade-right")
-            img(src='@/assets/curso/temas/tema3/8.svg')
-      .col-lg-6.p-4
+            img(src='@/assets/curso/temas/tema3/8.png')
+      .col-lg-7.p-4
           .cajon.color-acento-botones.p-4.mb-4
-            .h5 Cajón texto color
             p Para media, alta y extra alta tensión, el calibre mínimo debe ser seleccionado de forma tal que su temperatura no supere la del aislamiento de los conductores activos alojados en la misma canalización, acorde al capítulo 9 de la IEEE 242.
        
     .row.justify-content-center
@@ -94,11 +93,11 @@
       .col-10.mt-5 
         .tarjeta.tarjeta--azul.p-3(data-aos="zoom-in")
           .row.justify-content-center.align-items-center
-            .col-lg-10.p-2  
+            .col-md-10.p-2  
               p.text-center El valor de la resistencia de puesta a tierra no debe superar los siguientes valores máximos:
-            .col-lg-8.p-2
+            .col-md-10.p-2
               figure#introduccion_img(data-aos="fade-right")
-                img(src='@/assets/curso/temas/tema3/9.svg')
+                img(src='@/assets/curso/temas/tema3/9.png')
 
     .row.justify-content-center.align-items-center
       .col-10.mt-5
@@ -110,9 +109,9 @@
                   img(src='@/assets/curso/temas/tema3/10.svg')
           .col-lg-5.mb-5
             .tarjeta.tarjeta--azul.p-5(data-aos="zoom-in")
-              p.text-small En donde según IEEE81 para obtener 95% de precisión se debe escoger como mínimo igual a 6.5 veces la mayor dimensión de la puesta a tierra a medir
+              p.text-small En donde según IEEE81 para obtener 95 % de precisión se debe escoger como mínimo igual a 6.5 veces la mayor dimensión de la puesta a tierra a medir.
                 figure#introduccion_img(data-aos="fade-right")
-                  img(src='@/assets/curso/temas/tema3/11.svg')
+                  img(src='@/assets/curso/temas/tema3/11.png')
 
 
 </template>
