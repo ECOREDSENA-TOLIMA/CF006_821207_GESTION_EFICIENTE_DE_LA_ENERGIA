@@ -126,6 +126,14 @@ export default {
         'https://www.minenergia.gov.co/documents/3822/22726-Resolucion_9_0708_de_agosto_30_de_2013_expedicion_RETIE_2013.pdf',
     },
     {
+      tema: '1.2 Componentes del dictamen de inspección',
+      referencia:
+        'Lista de comprobación áreas comunes de edificios mixtos, vivienda multifamiliar o comercios. ',
+      tipo: 'Lista de verificación',
+      link:
+        'https://www.alcaldiabogota.gov.co/sisjurMantenimiento/adminverblobawa?tabla=T_NORMA_ARCHIVO&p_NORMFIL_ID=61&f_NORMFIL_FILE=X&inputfileext=NORMFIL_FILENAME',
+    },
+    {
       tema: '2. Verificación de conformidad RETILAP',
       referencia:
         'Resolución 181331 de 2009 y anexo. [Ministerio de Minas y Energía de Colombia]. Por la cual se expide el reglamento técnico de iluminación y alumbrado público RETILAP y se dictan otras disposiciones. Agosto 6 de 2009. ',
