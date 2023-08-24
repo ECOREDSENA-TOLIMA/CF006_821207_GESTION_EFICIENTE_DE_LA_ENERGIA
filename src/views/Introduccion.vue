@@ -44,7 +44,7 @@
     .row.justify-content-center
       .col-12.col-md-10e(data-aos="zoom-down")
         .titulo-sexto.color-acento-contenido
-          <b>Figura 1.</b> <i>Declaración de cumplimiento</i>
+          <b>Figura 1.</b> <i>Declaración de cumplimiento.</i>
       .col-12.col-md-10
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/intro/4.svg', alt='')

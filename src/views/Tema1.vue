@@ -32,7 +32,7 @@
             | Seleccionar en sector IAF (International Accreditation Forum) las opciones “19 Equipo eléctrico y óptico” o “25 Suministro de electricidad” según corresponda y luego buscar. Se presenta a continuación una imagen ilustrativa de la página:
         
         .titulo-sexto.color-acento-contenido.mb-1
-          <b>Figura 2.</b> <i>Esquema de acreditación </i>
+          <b>Figura 2.</b> <i>Esquema de acreditación.</i>
         figure
           img(src="@/assets/curso/temas/tema1/tema1-1.png")
           figcaption Nota: tomada de <a href="https://onac.org.co/directorio-de-acreditados/" target="_blank" style="color:blue">https://onac.org.co/directorio-de-acreditados/</a>
@@ -61,7 +61,7 @@
         LineaTiempoD.color-primario(data-aos="fade-right")
           .row(numero="1" titulo="RETIE. Formato 34.5")
             .col-md-12.mb-4.mb-md-0
-              p.text-small.mb-3 RETIE. Formato 34.5 dictamen de inspección y verificación para instalaciones de uso final
+              p.text-small.mb-3 RETIE. Formato 34.5 dictamen de inspección y verificación para instalaciones de uso final.
               p.text-small.mb-5 Para la inspección de instalaciones de uso final RETIE anexa un formato específico, el 34.5 con el listado de condiciones mínimas que deben ser verificadas para este tipo de instalación. 
               a.anexo.mb-3(:href="obtenerLink('downloads/Anexo_General_Reglamento_Tecnico_de_Instalaciones_Electricas.pdf')" target="_blank")
                 .anexo__icono

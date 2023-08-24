@@ -43,10 +43,10 @@
           .row.justify-content-center 
             .col-lg-10.mb-4.mt-4    
               .titulo-sexto.color-acento-contenido.mb-1
-                <b>Figura 3.</b> <i>Búsqueda por filtro, esquema de acreditación</i>
+                <b>Figura 3.</b> <i>Búsqueda por filtro, esquema de acreditación.</i>
               figure#introduccion_img(data-aos="fade-right")
                 img(src='@/assets/curso/temas/tema2/2.png')
-                figcaption Fuente: <a href="https://onac.org.co/directorio-de-acreditados/" target="_blank" style="color:blue">https://onac.org.co/directorio-de-acreditados/</a> 
+                figcaption Nota: tomada de <a href="https://onac.org.co/directorio-de-acreditados/" target="_blank" style="color:blue">https://onac.org.co/directorio-de-acreditados/</a> 
 
           ol.lista-ol--cuadro.px-3
             li 
@@ -57,10 +57,10 @@
           .row.justify-content-center 
             .col-lg-10.mt-4    
               .titulo-sexto.color-acento-contenido.mb-1
-                <b>Figura 4.</b> <i>Ejemplo listado de organizaciones acreditadas</i>
+                <b>Figura 4.</b> <i>Ejemplo listado de organizaciones acreditadas.</i>
               figure#introduccion_img(data-aos="fade-right")
                 img(src='@/assets/curso/temas/tema2/3.png')
-                figcaption Fuente: #[a(href="https://onac.org.co/directorio-de-acreditados/" target="_blank" style="color:blue") https://onac.org.co/directorio-de-acreditados/]
+                figcaption Nota: tomada de #[a(href="https://onac.org.co/directorio-de-acreditados/" target="_blank" style="color:blue") https://onac.org.co/directorio-de-acreditados/]
 
     p.mt-4(data-aos="fade-left") Por lo general, en un certificado de producto se encuentra la siguiente información:
 
