@@ -112,12 +112,12 @@
     .row.justify-content-center.align-items-center
       .col-10.mt-5
         .row.justify-content-center.align-items-center
-          .col-lg-5.mb-5
+          .col-lg-6.mb-5
             .tarjeta.tarjeta--azul.p-5(data-aos="zoom-in")
               p.text-small Para medir la resistencia de puesta a tierra, RETIE sugiere el método de la caída de potencial usando un telurómetro así:
                 figure#introduccion_img(data-aos="fade-right")
                   img(src='@/assets/curso/temas/tema3/10.svg')
-          .col-lg-5.mb-5
+          .col-lg-6.mb-5
             .tarjeta.tarjeta--azul.p-5(data-aos="zoom-in")
               p.text-small En donde según IEEE81 para obtener 95 % de precisión se debe escoger como mínimo igual a 6.5 veces la mayor dimensión de la puesta a tierra a medir.
                 figure#introduccion_img(data-aos="fade-right")
