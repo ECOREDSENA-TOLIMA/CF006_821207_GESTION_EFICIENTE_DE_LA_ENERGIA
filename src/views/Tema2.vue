@@ -207,7 +207,7 @@
               span.text-bold a. 
               | Para los sistemas de iluminación interior, el formato se encuentra en la página 222 del RETILAP, se invita a revisarlo.
           .col-md-10.col-lg-8.px-5
-            a.anexo.mb-3.mb-3(:href="obtenerLink('downloads/Dictamen_Inspeccion_RETILAP_Formato_2.pdf')" target="_blank")
+            a.anexo.mb-3.mb-3(:href="obtenerLink('downloads/Anexo_8_Dictamen_Inspeccion_RETILAP_Formato_2.pdf')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -217,7 +217,7 @@
               span.text-bold b. 
               |  Para los sistemas de iluminación exterior o alumbrado público el formato se encuentra en la página 223 del RETILAP, en la sección Anexos Formato 3. se invita a revisarlo.
           .col-md-10.col-lg-8.px-5
-            a.anexo.mb-3(:href="obtenerLink('downloads/Dictamen_Inspeccion_RETILAP_Formato_3.pdf')" target="_blank")
+            a.anexo.mb-3(:href="obtenerLink('downloads/Anexo_9_Dictamen_Inspeccion_RETILAP_Formato_3.pdf')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto

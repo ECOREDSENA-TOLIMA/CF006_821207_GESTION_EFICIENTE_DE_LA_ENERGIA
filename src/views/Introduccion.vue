@@ -35,7 +35,7 @@
                   h5.text-small Declaración de cumplimiento del reglamento técnico de instalaciones eléctricas. 
                   p.text-small Este documento muestra la Declaración de cumplimiento del reglamento técnico de instalaciones eléctricas” (numeral 34.9 RETIE) y “Declaración de cumplimiento del reglamento técnico de instalaciones de iluminación y alumbrado público” (numeral 8.20.4.1).
                 .col-sm-2
-                  a.boton.color-acento-botones(:href="obtenerLink('downloads/pag200_RETIE.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_1_pag200_RETIE.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
